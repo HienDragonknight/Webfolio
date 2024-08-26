@@ -1,0 +1,85 @@
+h1 {
+
+    padding-top: 200px;
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 0px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h1, h2 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bóng màu đen mờ */
+}
+
+.profile h2{
+    color: #206FD6;
+    text-shadow: none;
+}
+
+.myh{
+    color: #206FD6;
+    text-shadow: none;
+}
+
+.profile >p{
+    font-family: cursive;
+}
+
+.quynhon{
+    font-family: Helvetica, sans-serif;
+    text-align: start;
+    padding-left: 20px;
+    width: 500px;
+}
+
+.icon {
+    font-family: cursive;
+    color: red; /* Thay đổi màu sắc của biểu tượng */
+    font-size: 17px; /* Kích thước của biểu tượng */
+}
+.top-container{
+    text-align: center;
+        height:700px;
+        background-image: url('./images/Painting-backgrounds-How-to-paint-a-sky-step-4.webp');
+        background-size: cover; /* Hình nền bao phủ toàn bộ trang */
+        background-position: center; /* Hình nền đặt ở giữa */
+        background-repeat: no-repeat; /* Không lặp lại hình nền */
+    
+    
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+hr {
+    border: dotted #076363ec 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.bottom-container{
+    color: #fff;
+    background-color: #206FD6;
+    text-align: center;
+    height: 150px;
+}
+
+.footer-link{
+    color: #fff;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.copyright{
+    margin-top: 30px;
+}

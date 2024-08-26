@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tony Nguyen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet"  >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <style>
+      .fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
+
+     </style>
+</head>
+  <body>
+    <div class="top-container ">
+      <!-- <div class="fade-in"> <h1 >I'm Tony!</h1>
+        <h2>a programer</h2></div> -->
+        <div data-aos="fade-up">
+          <h1>I'm Tony!</h1>
+          <h2>a programmer</h2>
+      </div>
+      
+    </div>
+    <div class="middle-container row fade-in ">
+      <div class="profile my-5 py-5 text-center">
+<img class="rounded-circle" height="150px" src="./images/Screenshot 2024-08-26 114431.png">
+<h2>Hello.</h2>
+<p  class="pb-5">I am an Java Web Developer. I'm student at FPT University. I <span class="icon">&#10084;</span> Vietnamese traditional foods like Pho  <span class="icon">&#127844;</span> and Egg Coffee  <span class="icon">&#9749;</span>. </p>
+      
+<div class="event row">
+  <div class="col-lg-6">
+    <img style="margin-left: 200px; border-radius: 5%;"  height="300px" src="./images/379615435_217315458011401_5004062070110854427_n.jpg">
+
+  </div>
+  <div class="col-lg-6">
+    <p class="quynhon">I recently had the opportunity to visit the <span><a href="https://www.google.com/maps/place/B%E1%BA%A3o+t%C3%A0ng+Quang+Trung/@13.9205616,108.9182658,17z/data=!3m1!4b1!4m6!3m5!1s0x316f223e8460c909:0xc8439d0dd547b957!8m2!3d13.9205616!4d108.9208407!16s%2Fg%2F11kg22j2bs?hl=vi-VN&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Quang Trung Museum</a></span>
+      with a group of fellow students from FPT University Quy Nhon. The museum is dedicated to the heroic figure of Emperor Quang Trung, a celebrated leader in Vietnamese history. During our visit, we explored various exhibits showcasing his life, military achievements, and the historical significance of the Tây Sơn uprising. It was an enriching experience that deepened our understanding of Vietnam's rich cultural heritage and the pivotal role that Emperor Quang Trung played in shaping the nation's history.</p>
+
+  </div>
+</div>
+<hr>
+</div>
+      
+      <div class="skills fade-up  ">
+        <h2 class="mb-5 myh text-center">My Skills</h2>
+        <div class="parent">
+          <div class="row mb-3">
+            <div class="typing col-md-6">
+              <img style="      width: 284px;
+    height: 177px;  margin-left: 450px;" src="https://appbrewery.github.io/capstone-2-example/index_files/cat-typing.gif" alt="typing cat">
+            </div>
+  
+            <div class="coding col-lg-6">
+              <h3 style="padding-left: 20px;" class="myh">Fulstack Web Developer </h3>
+              <p class="quynhon" >I've been learning the Springboot & Reactjs since my third year. When I first started, I felt really nervous, but I persevered, and I am really proud of my self. I truly enjoy working with these technologies. They make bulding profressional websites much easier</p>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="singing col-md-6">
+              <img style="    margin-left: 450px;"  class="singing-img" src="./images/images.jpg" >
+            </div>
+  
+            <div class="sing col-lg-6 ">
+              <h3 style="padding-left: 20px;"  class="myh "> Passionate Singer</h3>
+              <p  class="quynhon">Singing has always been a deep passion of mine. I find joy in expressing emotions through music and love exploring different genres, from soulful ballads to energetic pop songs. Whether performing on stage or practicing at home, I’m dedicated to improving my vocal skills and sharing the art of song with others.</p>
+            </div>
+
+          </div>
+
+       
+        
+        
+      </div>
+      <hr/>
+      <div class=" my-5 contact-me text-center">
+        <h2 class="myh">Get In Touch</h2>
+        <h3 class="myh">If you love programing as much as I do.</h3>
+        <p style="width: 493px; margin: 0 auto;" class="contact-message py-5">Love programing as much as I do? Let's talk about how awesome they are! We can code all night long together ^^
+          !</p>
+        <a class="btn btn-primary" href="mailto:nthehien338@gmail.com">CONTACT ME</a>
+      </div>
+
+    </div>
+    <div class="bottom-container">
+      <div class="footer pt-5">
+      <a class="footer-link " href="https://www.linkedin.com/in/hien-nguyenb-8ba3502b6/" target="_blank">LinkedIn</a>
+      <a class="footer-link" href="https://www.facebook.com/yamamoto.tony.7" target="_blank">Facebook</a>
+      <a class="footer-link" href="https://github.com/HienDragonknight" target="_blank">Github</a>
+      <p class="copyright">© Tony Nguyen @ Dragonknight.</p>
+      </div>
+      
+    </div>
+    <script>document.addEventListener("DOMContentLoaded", function () {
+      const faders = document.querySelectorAll(".fade-in");
+  
+      const appearOptions = {
+          threshold: 0,
+          rootMargin: "0px 0px -100px 0px"
+      };
+  
+      const appearOnScroll = new IntersectionObserver(function (
+          entries,
+          appearOnScroll
+      ) {
+          entries.forEach(entry => {
+              if (!entry.isIntersecting) {
+                  return;
+              } else {
+                  entry.target.classList.add("show");
+                  appearOnScroll.unobserve(entry.target);
+              }
+          });
+      },
+          appearOptions);
+  
+      faders.forEach(fader => {
+          appearOnScroll.observe(fader);
+      });
+  });
+  
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
